@@ -43,7 +43,8 @@ pip install -r requirements.txt
 The dataset used in this project is sourced from [US Accident Data on Kaggle](https://www.kaggle.com). Ensure that you have the dataset in the appropriate directory before running the notebook.
 ### Note
 
-Since the dataset was too large to work with directly, it was randomly split into smaller subsets to make the analysis more manageable. Care was taken to ensure that the data was chosen evenly to maintain its representativeness.
+- Since the dataset was too large to work with directly, it was randomly split into smaller subsets to make the analysis more manageable. Care was taken to ensure that the data was chosen evenly to maintain its representativeness.
+- The `us-states.json` file used in this project was downloaded from [PublicaMundi's MappingAPI repository](https://github.com/PublicaMundi/MappingAPI/tree/master/data/geojson).
 
 ## Outputs
 
