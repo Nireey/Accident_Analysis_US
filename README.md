@@ -32,10 +32,6 @@ pip install -r requirements.txt
    ```bash
    git clone https://github.com/Nireey/Accident_Analysis_US.git
    ```
-2. Navigate to the project folder:
-   ```bash
-   cd Accident_Analysis_US
-   ```
 3. Open the Jupyter Notebook:
    ```bash
    jupyter notebook us_accident_analysis.ipynb
@@ -45,6 +41,9 @@ pip install -r requirements.txt
 ## Data Source
 
 The dataset used in this project is sourced from [US Accident Data on Kaggle](https://www.kaggle.com). Ensure that you have the dataset in the appropriate directory before running the notebook.
+### Note
+
+Since the dataset was too large to work with directly, it was randomly split into smaller subsets to make the analysis more manageable. Care was taken to ensure that the data was chosen evenly to maintain its representativeness.
 
 ## Outputs
 
